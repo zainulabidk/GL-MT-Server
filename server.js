@@ -15,7 +15,7 @@ app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 
- app.use(cors({ origin: "https://usermanagmentv1.netlify.app", credentials: true }));
+//  app.use(cors({ origin: "", credentials: true }));
 
 // Routes
 app.use("/api/auth", authRoutes);
